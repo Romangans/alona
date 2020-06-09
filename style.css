@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'minecraft';
+  src: url('minecraft.ttf');
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.pading-site {
+  padding: 0 150px;
+}
+
+.donut {
+  background: #72BBDC;
+}
+
+.header {
+  height: 73px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 85px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #F662B8;
+  right: 0;
+  margin: 0 auto;
+}
+
+.menu {
+  width: 242px;
+  height: 46px;
+  background: #FFF100;
+  border-radius: 10px;
+  font-family: 'minecraft';
+  text-align: center;
+  font-size: 25px;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #F662B8;
+  border-bottom: 5px solid;
+  border-left: 5px solid;
+}
+
+.menu:hover {
+  background: #F662B8;
+  color: #FFF100;
+  border-bottom: 5px solid #F662B8;
+  border-left: 5px solid #F662B8;
+}
+
+.develop {
+  width: 345px;
+}
+
+/* ---------------- */
+
+.present-img {
+  margin-top: 100px;
+}
+
+.present-underdonut {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.slogan-span {
+  display: inline-block;
+  font-family: 'minecraft';
+  font-size: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  margin: 10px;
+}
+
+/* ------------------ */
+
+.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: #FFF100;
+}
+
+.h1 {
+  margin: 15px auto 55px;
+  display: block;
+  text-align: center;
+}
+
+.about-text {
+  font-family: 'minecraft';
+  font-size: 35px;
+  line-height: 35px;
+  line-height: 1.5;
+  color: #000000;
+  letter-spacing: 1px;
+}
+
+.about-svg {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 125px;
+}
+
+.screenshots-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+/* ---------- */
+.screenshots {
+  margin: 0;
+  width: 330px;
+  height: 330px;
+}
+
+.screenshots:nth-child(1) {
+  background-image: url(imgweb/1.jpg);
+  background-size: 100%;
+}
+
+.screenshots:nth-child(2) {
+  background-image: url(imgweb/2.jpg);
+  background-size: 100%;
+}
+
+.screenshots:nth-child(3) {
+  background-image: url(imgweb/3.jpg);
+  background-size: 100%;
+}
+
+/* ------------- */
+.developers {
+  padding-top: 15px;
+  padding-bottom: 80px;
+  background: #F662B8;
+  text-align: center;
+}
+.developers-img-block{
+  display: flex;
+  justify-content: space-between;
+}
+.developers-img{
+  width: 340px;
+}
+.developer{
+  width: 340px;
+}
