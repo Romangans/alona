@@ -314,13 +314,13 @@ function page_menu() {
   image(sprite_floor,sprite_floor.width+sprite_floor.width-overflowX,height-sprite_floor.height ,sprite_floor.width*2,sprite_floor.height*2);
   image(sprite_floor,sprite_floor.width+sprite_floor.width*2-overflowX,height-sprite_floor.height ,sprite_floor.width*2,sprite_floor.height*2);
   
-  image(sprite_title,width/2,100,sprite_title.width/4,sprite_title.height/4);
+  image(sprite_title,width/2,100,sprite_title.width/1.5,sprite_title.height/1.5);
 
   
   flappy_bird.kinematicMove();
   
   push();
-    fill(230,97,29);
+    fill(246, 98, 184);
     stroke(255);
     strokeWeight(3);
     text('Click or tap to play',width/2,height/2-50);
