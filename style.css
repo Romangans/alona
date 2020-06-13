@@ -135,16 +135,19 @@ body {
 .screenshots:nth-child(1) {
   background-image: url(imgweb/1.jpg);
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .screenshots:nth-child(2) {
   background-image: url(imgweb/2.jpg);
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .screenshots:nth-child(3) {
   background-image: url(imgweb/3.jpg);
-  background-size: 100%;
+  background-size: 93%;
+  background-repeat: no-repeat;
 }
 
 /* ------------- */

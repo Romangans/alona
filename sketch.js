@@ -366,7 +366,6 @@ function Pipe() {
       try { sound_point.play(); } catch(e) {}
       
       if(gap > 60) { gap--; }
-      //if(speed < 20) { speed+=0.1; }
       
       this.potential = false;
     }
