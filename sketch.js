@@ -7,6 +7,7 @@ var sprite_floor;
 var sprite_title;
 
 
+
 var font_flappy;
 
 //EVENTS
@@ -183,7 +184,8 @@ function setup() {
   sprite_pipe = loadImage('img/stolb.svg');
   sprite_city = loadImage('img/backn.jpg');
   sprite_floor = loadImage('img/floor.svg');
-  sprite_title = loadImage('img/click.jpg');
+  sprite_title = loadImage('img/click.png');
+  
 
   font_flappy = loadFont('minecraft.ttf');
   
@@ -267,6 +269,8 @@ function page_game() {
   image(sprite_floor,sprite_floor.width+sprite_floor.width-overflowX,height-sprite_floor.height ,sprite_floor.width*2,sprite_floor.height*2);
   image(sprite_floor,sprite_floor.width+sprite_floor.width*2-overflowX,height-sprite_floor.height ,sprite_floor.width*2,sprite_floor.height*2);
   
+
+
   
   flappy_bird.display();
   flappy_bird.update();
@@ -311,6 +315,7 @@ function page_menu() {
   image(sprite_floor,sprite_floor.width+sprite_floor.width*2-overflowX,height-sprite_floor.height ,sprite_floor.width*2,sprite_floor.height*2);
   
   image(sprite_title,width/2,100,sprite_title.width/4,sprite_title.height/4);
+
   
   flappy_bird.kinematicMove();
   
